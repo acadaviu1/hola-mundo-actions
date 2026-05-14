@@ -52,6 +52,17 @@ jobs:
         run: |
           echo "--- Archivos en el repositorio ---"
           ls -la
+
+      - name: "Sobre mi"
+        run: |
+          echo "==========================================="
+          echo "  Nombre:      [Alejandro Cadavid]"
+          echo "  Programa:    [Desarrollador de software]"
+          echo "  Institucion: IU Digital de Antioquia"
+          echo "  Fecha:       $(date)"
+          echo "  Mi primer Action funciona!"
+          echo "==========================================="
+
  
       - name: "Deploy completado"
         run: |
